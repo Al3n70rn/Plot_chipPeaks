@@ -8,7 +8,8 @@ ggplot2
 
 Example usage: 
 
-```source("plot_chipPeaks.R")
+```
+source("plot_chipPeaks.R")
 plotPeaks(bigWig = bw,peaks_bed = 'peaks.bed',chr = 'chr10',start = 74020000,end = 74050000,isBigWigFile = T,showGeneStruct = T)
 ```
 
