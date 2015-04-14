@@ -3,7 +3,7 @@
 #####Rscript to plot ChIP-Seq peaks. 
 
 Dependencies: 
-![rtracklayer](http://www.bioconductor.org/packages/release/bioc/html/rtracklayer.html)
+[rtracklayer](http://www.bioconductor.org/packages/release/bioc/html/rtracklayer.html)
 ggplot2
 
 Example usage: 
@@ -12,8 +12,8 @@ Example usage:
 plotPeaks(bigWig = bw,peaks_bed = 'peaks.bed',chr = 'chr10',start = 74020000,end = 74050000,isBigWigFile = T,showGeneStruct = T)
 ```
 
-`bigWig` = Input file in ![bigwig](https://genome.ucsc.edu/goldenPath/help/bigWig.html) format.
-`peaks_bed` = Peak regions in ![BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1) format.
+`bigWig` = Input file in [bigwig](https://genome.ucsc.edu/goldenPath/help/bigWig.html) format.
+`peaks_bed` = Peak regions in [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1) format.
 `chr` = Chromosome name to visualize.
 `start` = start position from which to plot.
 `end` = end position till which to plot.
