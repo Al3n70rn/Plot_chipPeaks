@@ -13,12 +13,19 @@ plotPeaks(bigWig = bw,peaks_bed = 'peaks.bed',chr = 'chr10',start = 74020000,end
 ```
 
 `bigWig` = Input file in [bigwig](https://genome.ucsc.edu/goldenPath/help/bigWig.html) format.
+
 `peaks_bed` = Peak regions in [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1) format.
+
 `chr` = Chromosome name to visualize.
+
 `start` = start position from which to plot.
+
 `end` = end position till which to plot.
+
 `isBigWigFile` = If input file is is bigwig. LOGICAL - defaut FALSE.
+
 `showGeneStruct` = Whether to plot genes in located in the plot region. Default FALSE.
+
 
 #####Sample output from above command.
 
