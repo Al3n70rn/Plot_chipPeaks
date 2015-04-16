@@ -23,9 +23,9 @@ plotPeaks(bigWig = bw,peaks_bed = 'peaks.bed',chr = 'chr10',start = 74020000,end
 
 `end` = end position till which to plot.
 
-`isBigWigFile` = If input file is is bigwig. LOGICAL - defaut FALSE.
+`isBigWigFile` = If input file is is bigwig. LOGICAL - defaut TRUE.
 
-`showGeneStruct` = Whether to plot genes in located in the plot region. Default FALSE.
+`showGeneStruct` = Whether to plot genes in located in the plot region. Default TRUE.
 
 
 #####Sample output from above command.
